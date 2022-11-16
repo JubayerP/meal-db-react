@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header/Header";
 
 function App() {
   return (
-    <div>
-      <h1 className='text-8xl font-bold text-center'>Hello World!</h1>
+    <div className="bg-gradient-to-r from-[#242B2E] to-[#CAD5E2]  h-screen">
+      <Header />
     </div>
   );
 }
